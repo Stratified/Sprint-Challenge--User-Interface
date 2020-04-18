@@ -225,12 +225,12 @@ p {
   color: black;
 }
 nav a {
-    transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
 nav a:hover {
   color: rgb(0, 255, 255);
 }
-.logo {rgb(0, 78, 78)
+.logo {
   padding-top: 2vh;
 }
 
@@ -239,10 +239,10 @@ nav a:hover {
 }
 
 .boxes {
-    transition: ease-in 2s;  
+  transition: ease-in 2s;
 }
 .boxes:hover {
-    background: rgb(178, 191, 255);
+  background: rgb(178, 191, 255);
 }
 
 #box1 {
