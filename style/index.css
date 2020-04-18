@@ -292,7 +292,7 @@ footer nav a {
 
 @media (max-width: 500px) {
   .container {
-    width: 100%;
+    width: 100vw;
   }
 
   .headerImg img {
@@ -309,17 +309,42 @@ footer nav a {
     margin-left: 65vw;
   }
   .container .navBar nav a {
-    padding: 2%;
-    background-color: darkgrey;
+    width: 150%;
+    padding: 5px 100px;
+    color: lightgray;
     margin-right: 65vw;
+    border: lightgray 1px solid;
+    border-radius: 5px;
+  }
+  .container .navBar nav a:hover {
+    background-color: darkgray;
+    color: black;
+    font-weight: bold;
   }
   .top-content {
     display: flex;
     flex-direction: column;
   }
+  .top-content p {
+    color: grey;
+    width: 200%;
+  }
+
   .boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .box {
+    padding: 20%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .middle-content h2 {
+    font-size: 1.5rem;
+    margin-left: 10vh;
   }
 }
